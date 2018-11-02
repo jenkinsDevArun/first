@@ -26,7 +26,7 @@ pipeline {
                     input message: 'Deploy to prod?'
                 }
 
-                build job: 'Deploy-to-Prod'
+                build job: 'Deploy-to-prod'
             }
             post{
                 success{
